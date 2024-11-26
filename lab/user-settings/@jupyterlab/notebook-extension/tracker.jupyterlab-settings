@@ -1,3 +1,14 @@
 {
+    // Notebook
+    // @jupyterlab/notebook-extension:tracker
+    // Notebook settings.
+    // **************************************
+
+    // Recording timing
+    // Should timing data be recorded in cell metadata
+    "recordTiming": true,
+
+    // Windowing mode
+    // 'defer': Improve loading time - Wait for idle CPU cycles to attach out of viewport cells - 'full': Best performance with side effects - Attach to the DOM only cells in viewport - 'none': Worst performance without side effects - Attach all cells to the viewport
     "windowingMode": "defer"
 }
