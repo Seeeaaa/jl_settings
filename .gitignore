@@ -1,1 +1,4 @@
 migrated
+workspaces
+*.jupyterlab-workspace
+jupyterlabapputilsextensionannouncements.json
