@@ -1,14 +1,33 @@
 {
-    // Notebook
-    // @jupyterlab/notebook-extension:tracker
-    // Notebook settings.
-    // **************************************
-
-    // Recording timing
-    // Should timing data be recorded in cell metadata
     "recordTiming": true,
-
-    // Windowing mode
-    // 'defer': Improve loading time - Wait for idle CPU cycles to attach out of viewport cells - 'full': Best performance with side effects - Attach to the DOM only cells in viewport - 'none': Worst performance without side effects - Attach all cells to the viewport
-    "windowingMode": "defer"
+    "windowingMode": "defer",
+    "enableKernelInitNotification": false,
+    "codeCellConfig": {
+        "autoClosingBrackets": true,
+        "highlightActiveLine": true
+    },
+    "defaultCell": "code",
+    "autoStartDefaultKernel": false,
+    "inputHistoryScope": "global",
+    "kernelShutdown": false,
+    "markdownCellConfig": {
+        "autoClosingBrackets": true,
+        "highlightActiveLine": true
+    },
+    "rawCellConfig": {
+        "autoClosingBrackets": true,
+        "highlightActiveLine": true
+    },
+    "scrollPastEnd": true,
+    "scrollHeadingToTop": true,
+    "showEditorForReadOnlyMarkdown": true,
+    "kernelStatus": {
+        "showOnStatusBar": false,
+        "showProgress": true
+    },
+    "documentWideUndoRedo": false,
+    "showHiddenCellsButton": true,
+    "renderingLayout": "default",
+    "sideBySideOutputRatio": 1,
+    "accessKernelHistory": false
 }
