@@ -53,6 +53,14 @@
         "highlightActiveLine": true
     },
 
+    // The maximum number of output cells to be rendered in the output area.
+    // Defines the maximum number of output cells to be rendered in the output area for cells with many outputs. The output area will have a head and the remaining outputs will be trimmed and not displayed unless the user clicks on the information message. Set to 0 to have the complete display.
+    "maxNumberOutputs": 50,
+
+    // Number of cells to render outside de the viewport
+    // In 'full' windowing mode, this is the number of cells above and below the viewport.
+    "overscanCount": 1,
+
     // Raw Cell Configuration
     // The configuration for all raw cells; it will override the CodeMirror default configuration.
     "rawCellConfig": {
@@ -84,9 +92,17 @@
     // If set to true, a button is shown below collapsed headings, indicating how many cells are hidden beneath the collapsed heading.
     "showHiddenCellsButton": true,
 
+    // Side-by-side left margin override
+    // Side-by-side left margin override.
+    "sideBySideLeftMarginOverride": "10px",
+
     // Side-by-side output ratio
     // For the side-by-side rendering, the side-by-side output ratio defines the width of the output vs the input. Set 1 for same size, > 1 for larger output, < 1 for smaller output.
     "sideBySideOutputRatio": 1,
+
+    // Side-by-side right margin override
+    // Side-by-side right margin override.
+    "sideBySideRightMarginOverride": "10px",
 
     // Windowing mode
     // 'defer': Improve loading time - Wait for idle CPU cycles to attach out of viewport cells - 'full': Best performance with side effects - Attach to the DOM only cells in viewport - 'none': Worst performance without side effects - Attach all cells to the viewport
