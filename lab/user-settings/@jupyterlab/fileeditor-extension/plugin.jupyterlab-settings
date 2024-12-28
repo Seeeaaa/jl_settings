@@ -1,5 +1,9 @@
 {
-    "editorConfig": {},
+    "editorConfig": {
+        "autoClosingBrackets": true,
+        "codeFolding": true,
+        "highlightActiveLine": true
+    },
     "scrollPastEnd": true,
     "toolbar": []
 }
