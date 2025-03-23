@@ -1,23 +1,32 @@
 {
-    "black": {
-        "line_length": 79,
-        "string_normalization": true
-    },
     "preferences": {
         "default_formatter": {
-            "python": [
-                "isort",
-                "black"
-            ],
+            "python": "black",
             "R": "formatR",
             "rust": "rustfmt",
             "c++11": "astyle"
         }
     },
-    "yapf": {
-        "style_config": "google"
+    "black": {
+        "line_length": 79,
+        "string_normalization": true
     },
-    "autopep8": {},
+    "ruff": {
+        "args": [
+            "line-length = 79"
+        ]
+    },
+    "ruffformat": {
+        "args": [
+            "line-length = 79"
+        ]
+    },
+    "yapf": {
+        "style_config": "google",
+    },
+    "autopep8": {
+        "max_line_length": 79
+    },
     "isort": {
         "multi_line_output": 3,
         "include_trailing_comma": true,
@@ -36,14 +45,6 @@
     "formatOnSave": false,
     "cacheFormatters": false,
     "astyle": {
-        "args": []
-    },
-    "ruff": {
-        "args": [
-            "--select=I001"
-        ]
-    },
-    "ruffformat": {
         "args": []
     },
     "suppressFormatterErrors": false,
