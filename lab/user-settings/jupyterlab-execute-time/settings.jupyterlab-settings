@@ -1,0 +1,12 @@
+{
+    "enabled": true,
+    "highlight": true,
+    "positioning": "left",
+    "minTime": 0,
+    "textContrast": "high",
+    "showLiveExecutionTime": true,
+    "showDate": true,
+    "historyCount": 10,
+    "dateFormat": "yyy-MM-dd HH:mm:ss",
+    "showOutputsPerSecond": false
+}
