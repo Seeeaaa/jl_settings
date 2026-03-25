@@ -9,7 +9,9 @@
     },
     "black": {
         "line_length": 79,
-        "string_normalization": true
+        "string_normalization": true,
+        "magic_trailing_comma": true,
+        "preview": false
     },
     "ruff": {
         "args": [
@@ -22,7 +24,7 @@
         ]
     },
     "yapf": {
-        "style_config": "google",
+        "style_config": "google"
     },
     "autopep8": {
         "max_line_length": 79

@@ -1,6 +1,6 @@
 {
     "enable": true,
-    "refreshRate": 100,
+    "refreshRate": 200,
     "memory": {
         "label": "Mem "
     },
